@@ -11,5 +11,16 @@
     "package",
     "template"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "bin": {
+    "wxll": "./index.js"
+  },
+  "devDependencies": {
+    "chalk-pipe": "^2.0.0",
+    "commander": "^2.19.0",
+    "inquirer": "^6.2.1",
+    "install": "^0.12.2",
+    "moment": "^2.24.0",
+    "npm": "^6.6.0"
+  }
 }
