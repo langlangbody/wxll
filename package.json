@@ -13,7 +13,7 @@
   ],
   "license": "MIT",
   "bin": {
-    "wxll": "./index.js"
+    "wxll": "index.js"
   },
   "devDependencies": {
     "chalk-pipe": "^2.0.0",
@@ -22,5 +22,8 @@
     "install": "^0.12.2",
     "moment": "^2.24.0",
     "npm": "^6.6.0"
+  },
+  "engines": {
+    "node": ">=8.9"
   }
 }
